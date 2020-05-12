@@ -190,10 +190,4 @@ export class Color {
 	toArray( xyz: ArrayLike<number>, offset?: number ): ArrayLike<number>;
 
 	fromBufferAttribute( attribute: BufferAttribute, index: number ): this;
-
-	/**
-	 * List of X11 color names.
-	 */
-	static NAMES: Record<string, number>;
-
 }

@@ -4,7 +4,7 @@ import { InterleavedBufferAttribute } from '../../core/InterleavedBufferAttribut
 
 export class WebGLAttributes {
 
-	constructor( gl: WebGLRenderingContext | WebGL2RenderingContext, capabilities: WebGLCapabilities );
+	constructor( gl: WebGLRenderingContext, capabilities: WebGLCapabilities );
 
 	get( attribute: BufferAttribute | InterleavedBufferAttribute ): {
 		buffer: WebGLBuffer,

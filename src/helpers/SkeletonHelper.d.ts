@@ -5,7 +5,7 @@ import { LineSegments } from './../objects/LineSegments';
 
 export class SkeletonHelper extends LineSegments {
 
-	constructor( object: Object3D );
+	constructor( obj: Object3D );
 
 	/**
 	 * @default 'SkeletonHelper'

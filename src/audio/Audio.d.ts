@@ -1,6 +1,5 @@
 import { Object3D } from './../core/Object3D';
 import { AudioListener } from './AudioListener';
-import { AudioContext } from './AudioContext';
 
 // Extras / Audio /////////////////////////////////////////////////////////////////////
 
@@ -100,9 +99,4 @@ export class Audio<NodeType extends AudioNode = GainNode> extends Object3D {
 	setLoopEnd( value: number ): this;
 	getVolume(): number;
 	setVolume( value: number ): this;
-	/**
-	 * @deprecated Use {@link AudioLoader} instead.
-	 */
-	load( file: string ): Audio;
-
 }
