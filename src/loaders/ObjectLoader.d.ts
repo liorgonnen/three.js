@@ -9,9 +9,9 @@ export class ObjectLoader extends Loader {
 
 	constructor( manager?: LoadingManager );
 
-	load(
+	load<T extends Object3D>(
 		url: string,
-		onLoad?: <ObjectType extends Object3D>( object: ObjectType ) => void,
+		onLoad?: ( object: T ) => void,
 		onProgress?: ( event: ProgressEvent ) => void,
 		onError?: ( event: Error | ErrorEvent ) => void
 	): void;
