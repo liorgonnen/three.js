@@ -13,6 +13,7 @@ export interface MediaStream { }
 export interface AnalyserNode { }
 export interface ArrayLike<T> { }
 export interface WebGL2RenderingContext { }
+export interface ProgresssEvent { }
 
 // All *Utils files are disabled since dukat doesn't handle namespaces correctly yet
 
@@ -64,6 +65,7 @@ export { TorusKnotGeometry } from './geometries/TorusKnotGeometry';
 export { TorusGeometry } from './geometries/TorusGeometry';
 export { TextGeometry } from './geometries/TextGeometry';
 export { SphereGeometry } from './geometries/SphereGeometry';
+export { SphereBufferGeometry } from './geometries/SphereGeometry';
 export { RingGeometry } from './geometries/RingGeometry';
 export { PlaneGeometry } from './geometries/PlaneGeometry';
 export { LatheGeometry } from './geometries/LatheGeometry';
@@ -162,6 +164,25 @@ export { InstancedInterleavedBuffer } from './core/InstancedInterleavedBuffer';
 export { InterleavedBuffer } from './core/InterleavedBuffer';
 export { InstancedBufferAttribute } from './core/InstancedBufferAttribute';
 export { BufferAttribute } from './core/BufferAttribute';
+export { Int8Attribute } from './core/BufferAttribute';
+export { Uint8Attribute } from './core/BufferAttribute';
+export { Uint8ClampedAttribute } from './core/BufferAttribute';
+export { Uint8ClampedAttribute } from './core/BufferAttribute';
+export { Int16Attribute } from './core/BufferAttribute';
+export { Uint16Attribute } from './core/BufferAttribute';
+export { Int32Attribute } from './core/BufferAttribute';
+export { Uint32Attribute } from './core/BufferAttribute';
+export { Float32Attribute } from './core/BufferAttribute';
+export { Float64Attribute } from './core/BufferAttribute';
+export { Int8BufferAttribute } from './core/BufferAttribute';
+export { Uint8BufferAttribute } from './core/BufferAttribute';
+export { Uint8ClampedBufferAttribute } from './core/BufferAttribute';
+export { Int16BufferAttribute } from './core/BufferAttribute';
+export { Uint16BufferAttribute } from './core/BufferAttribute';
+export { Int32BufferAttribute } from './core/BufferAttribute';
+export { Uint32BufferAttribute } from './core/BufferAttribute';
+export { Float32BufferAttribute } from './core/BufferAttribute';
+export { Float64BufferAttribute } from './core/BufferAttribute';
 export { Face3 } from './core/Face3';
 export { Object3D } from './core/Object3D';
 export { Raycaster } from './core/Raycaster';
@@ -215,6 +236,18 @@ export { ShapePath } from './extras/core/ShapePath';
 export { Font } from './extras/core/Font';
 export { CurvePath } from './extras/core/CurvePath';
 export { Curve } from './extras/core/Curve';
+
+export { ArcCurve } from './extras/curves/ArcCurve';
+export { CatmullRomCurve3 } from './extras/curves/CatmullRomCurve3';
+export { CubicBezierCurve } from './extras/curves/CubicBezierCurve';
+export { CubicBezierCurve3 } from './extras/curves/CubicBezierCurve3';
+export { EllipseCurve } from './extras/curves/EllipseCurve';
+export { LineCurve } from './extras/curves/LineCurve';
+export { LineCurve3 } from './extras/curves/LineCurve3';
+export { QuadraticBezierCurve } from './extras/curves/QuadraticBezierCurve';
+export { QuadraticBezierCurve3 } from './extras/curves/QuadraticBezierCurve3';
+export { SplineCurve } from './extras/curves/SplineCurve';
+
 // export { ImageUtils } from './extras/ImageUtils';
 // export { ShapeUtils } from './extras/ShapeUtils';
 export { PMREMGenerator } from './extras/PMREMGenerator';
